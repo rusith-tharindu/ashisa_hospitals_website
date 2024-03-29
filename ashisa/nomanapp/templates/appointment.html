@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Appointments</title>
+</head>
+<body>
+    <h1>Create an Appointment with the Consultant Surgeon</h1>
+    <form action="" method="POST">
+        {% csrf_token %} 
+        {{form.as_p}}
+       
+        <input type="submit" value="Submit">
+    </form>
+   
+    
+    
+</body>
+</html>
